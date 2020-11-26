@@ -7,12 +7,34 @@
 - [工业互联网 （工业4.0）](#工业互联网-工业40)
   - [协议](#协议)
     - [OPC UA](#opc-ua)
+    - [TSN](#tsn)
+  - [文章](#文章)
+  - [平台调研](#平台调研)
+  - [大数据相关](#大数据相关)
   - [其他](#其他)
     - [公众号](#公众号)
 
 ## 协议
 
 ### OPC UA
+
+* [OPC UA协议](docs/protocols/opc_ua_guide.md)
+
+### TSN
+
+* [TSN时间敏感网络协议](docs/protocols/tsn.md)
+
+## 文章
+
+* [数据模型设计](docs/articles/ibm_iot.md)
+
+## 平台调研
+
+* [阿里云物联网平台](docs/platforms/aliyun_iot_platform)
+
+## 大数据相关
+
+* [工业大数据](docs/big-data/reference.md)
 
 ## 其他
 
