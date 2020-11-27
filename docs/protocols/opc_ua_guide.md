@@ -51,9 +51,12 @@ OPC UA在安全性方面做了很多工作：
 OPC UA在设计上采用了多层架构，保证了对未来协议和技术的兼容性，同时保持对已有设备的一致性兼容。
 
 ### 良好的信息模型
+
+![](../../resources/imgs/opc_ua_information_model.jpg)
+
 OPC UA在信息模型上采用面向对象的设计，使得即使是最复杂的多层结构也能很好的建模和拓展。
 
-![](../../resources/images/../imgs/UA-Architecture.png)
+![](../../resources/imgs/UA-Architecture.png)
 
 从架构图中我们可以看到，OPC UA定义了拓展接口和基本的模型，其他人可以通过拓展这些来实现自己的模型。
 
@@ -66,19 +69,25 @@ OPC UA同时也定义了信息模型的访问机制：
 
 同时提供了两种通信方式：Client-Server和Pub-Sub。其中Client-Server每条信息都是针对单个客户端，而Pub-Sub测试多对多的方式。
 
-## OPC UA TSN[<sup>1</sup>](./tsn.md)
+## 角色与意义
 
-### 需求来源
+OPC UA扮演的角色主要基于下面的问题，在IEC关于互联技术报告中提到互联、互通、语义互操作多个层面的问题（图4中的不兼容、共存不考虑，互换目前无法做到），而OPC UA主要解决在语义互操作的问题上。
 
-由于OPC UA欠缺一定实时性，所以要推荐OPC UA TSN，即OPC UA Over TSN。OPC UA来解决语义互操性，TSN负责解决实时性问题。
+![](../../resources/imgs/opc_ua_tsn_iec_problems.jpg)
+
+## 使用原因
+
+尽管OPC UA有非常多的使用原因，包括非盈利组织、IEC标准、安全性，但是，对于智能制造而言，多个设备之间的协同（M2M）以及业务管理系统与产线的协同（B2M）、业务单元间的数据（B2B）都需要OPC UA的协同。
+
+![](../../resources/imgs/why_we_use_opc_ua.png)
 
 ## 常见问题
 
-1. OPC UA属于哪一层的协议？
+1. **OPC UA属于哪一层的协议？**
    
    应用层
 
-2. 和OPC UA并列的还有哪些工业物联网协议？
+2. **和OPC UA并列的还有哪些工业物联网协议？**
 
     CANOpen,Profinet,Modbus
 
