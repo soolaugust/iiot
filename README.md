@@ -11,6 +11,8 @@
     - [OPC UA](#opc-ua)
     - [TSN](#tsn)
     - [Modbus](#modbus)
+    - [HART](#hart)
+  - [边缘计算](#边缘计算)
   - [文章](#文章)
   - [平台调研](#平台调研)
   - [大数据相关](#大数据相关)
@@ -44,6 +46,14 @@ IT/OT的融合是近几年的热点，其大致意思是通过打通制造执行
 ### Modbus
 
 * [Modbus协议](docs/protocols/modbus.md)
+
+### HART
+
+* [什么是HART协议](docs/protocols/hart.md)
+
+## 边缘计算
+
+* [边缘计算](docs/edge-computing/README.md)
 
 ## 文章
 
