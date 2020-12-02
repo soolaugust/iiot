@@ -69,6 +69,7 @@ IT/OT的融合是近几年的热点，其大致意思是通过打通制造执行
 
 * [AWS IoT Core设计解析](docs/architectures/cloud/aws_iot_core.md)
 * [AWS IoT Device Defender设计解析](docs/architectures/cloud/aws_iot_device_defender.md)
+* [AWS IoT Device Management设计解析](docs/architectures/cloud/aws_iot_device_management.md)
 
 ### 边缘端
 
