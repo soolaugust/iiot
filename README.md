@@ -15,6 +15,7 @@
     - [HART](#hart)
   - [边缘计算](#边缘计算)
   - [架构&设计](#架构设计)
+    - [云端](#云端)
     - [边缘端](#边缘端)
   - [文章](#文章)
   - [平台调研](#平台调研)
@@ -63,6 +64,10 @@ IT/OT的融合是近几年的热点，其大致意思是通过打通制造执行
 * [边缘计算](docs/edge-computing/README.md)
 
 ## 架构&设计
+
+### 云端
+
+* [AWS IoT Core设计解析](docs/architectures/cloud/aws_iot_core.md)
 
 ### 边缘端
 
