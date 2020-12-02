@@ -17,6 +17,7 @@
   - [架构&设计](#架构设计)
     - [云端](#云端)
     - [边缘端](#边缘端)
+    - [组合](#组合)
   - [文章](#文章)
   - [平台调研](#平台调研)
   - [大数据相关](#大数据相关)
@@ -74,6 +75,10 @@ IT/OT的融合是近几年的热点，其大致意思是通过打通制造执行
 ### 边缘端
 
 * [AWS IoT Greengrass设计解析](docs/architectures/edge/aws_iot_greengrass.md)
+
+### 组合
+
+* [AWS IoT SiteWise设计解析](docs/architectures/aggregation/aws_iot_sitewise.md)
 
 ## 文章
 
