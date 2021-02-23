@@ -8,7 +8,8 @@
   - [基本概念](#基本概念)
     - [IT & OT](#it--ot)
     - [现场总线](#现场总线)
-  - [协议](#协议)
+  - [协议和标准](#协议和标准)
+    - [OSLC](#oslc)
     - [OPC UA](#opc-ua)
     - [TSN](#tsn)
     - [Modbus](#modbus)
@@ -41,9 +42,15 @@ IT/OT的融合是近几年的热点，其大致意思是通过打通制造执行
 
 * [现场总线](docs/basic/field_bus.md)
 
-## 协议
+## 协议和标准
+
+### OSLC
+
+* [OSLC官网](https://open-services.net/)
 
 ### OPC UA
+
+* [OPC UA官网](https://opcfoundation.org/about/opc-technologies/opc-ua/)
 
 * [OPC UA协议](docs/protocols/opc_ua_guide.md)
 
@@ -97,6 +104,7 @@ IT/OT的融合是近几年的热点，其大致意思是通过打通制造执行
 ## 网站
 
 * [数字孪生体 - 开源工业互联网平台](https://digitaltwin.openii.cn/)
+* [Next Generation Data Integration Solutions (OSLC)](https://koneksys.com/)
 
 ## 其他
 
