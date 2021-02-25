@@ -23,6 +23,8 @@
   - [平台调研](#平台调研)
   - [大数据相关](#大数据相关)
   - [网站](#网站)
+  - [工具](#工具)
+    - [消息队列 (MQ)](#消息队列-mq)
   - [其他](#其他)
     - [公众号](#公众号)
 
@@ -105,6 +107,18 @@ IT/OT的融合是近几年的热点，其大致意思是通过打通制造执行
 
 * [数字孪生体 - 开源工业互联网平台](https://digitaltwin.openii.cn/)
 * [Next Generation Data Integration Solutions (OSLC)](https://koneksys.com/)
+
+## 工具
+
+### 消息队列 (MQ)
+
+**服务器**
+
+* [EMQ Broker](https://www.emqx.io/products/broker)
+
+**客户端测试工具**
+
+* [MQTT Websocket Toolkit](http://tools.emqx.io/)
 
 ## 其他
 
