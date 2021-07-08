@@ -9,6 +9,7 @@
     - [IT & OT](#it--ot)
     - [现场总线](#现场总线)
   - [协议和标准](#协议和标准)
+    - [HTTP](#http)
     - [OSLC](#oslc)
     - [OPC UA](#opc-ua)
     - [TSN](#tsn)
@@ -45,6 +46,10 @@ IT/OT的融合是近几年的热点，其大致意思是通过打通制造执行
 * [现场总线](docs/basic/field_bus.md)
 
 ## 协议和标准
+
+### HTTP
+
+* [透视 HTTP 协议](https://zq99299.github.io/note-book2/http-protocol/)
 
 ### OSLC
 
